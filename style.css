@@ -1,3 +1,5 @@
+@import '.reset.css';
+
 :root {
 	--page-width: 72rem;
 	--x-padding: 1.5rem;
@@ -6,6 +8,8 @@
 
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
