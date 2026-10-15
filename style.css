@@ -1,4 +1,4 @@
-@import '.reset.css';
+@import './reset.css';
 
 :root {
 	--page-width: 72rem;
@@ -17,6 +17,8 @@ body {
 	flex-flow: column;
 	align-items: center;
 	min-height: 100dvh;
+    margin: 0;
+    padding: 0;
 }
 
 header, main, footer {
@@ -108,6 +110,6 @@ iframe {
     justify-content: flex-end;
 
     iframe {
-        width: calc(1 / 3 * 100%);
+        width: calc(3 / 5 * 100%);
     }
 }
