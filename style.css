@@ -93,3 +93,12 @@ iframe {
 	aspect-ratio: calc(16/9);
 	width: 100%;
 }
+
+.small-video-demo {
+    display: flex;
+    justify-content: flex-end;
+
+    iframe {
+        width: calc(1 / 3);
+    }
+}
